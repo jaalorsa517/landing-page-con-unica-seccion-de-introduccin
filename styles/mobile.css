@@ -1,0 +1,63 @@
+@media screen and (min-width: 250px) and (max-width:1439px) {
+    :root {
+        --h-img: 220px;
+    }
+    body {
+        background-image: url("../images/bg-mobile.svg");
+        width: 375px;
+        margin-top: 15px;
+    }
+    .main-container {
+        grid-template-columns: auto;
+        grid-template-rows: 40px 250px 380px 1fr;
+        row-gap: 45px;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .title-container {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .title-container img {
+        height: 30px;
+        margin-top: 0;
+    }
+    .img-container {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .register {
+        grid-row: auto;
+        grid-column: auto;
+        align-items: center;
+    }
+    .register-title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .register-description {
+        text-align: center;
+        font-size: 16px;
+    }
+    .buttom {
+        width: 220px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    footer {
+        grid-row: auto;
+        grid-column: auto;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 30px;
+    }
+    footer div {
+        width: 40%
+    }
+}
+
+/* @media screen and (min-width:376px) {
+    body {
+        background-image: unset;
+    }
+} */
