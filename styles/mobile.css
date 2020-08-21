@@ -1,13 +1,15 @@
-@media screen and (min-width: 250px) and (max-width:1439px) {
+@media screen and (min-width: 250px) and (max-width:1410px) {
     :root {
         --h-img: 220px;
     }
     body {
-        background-image: url("../images/bg-mobile.svg");
         width: 375px;
         margin-top: 15px;
     }
-    .main-container {
+    .main-container{
+        background-image: url("../images/bg-mobile.svg");
+    }
+    .background {
         grid-template-columns: auto;
         grid-template-rows: 40px 250px 380px 1fr;
         row-gap: 45px;

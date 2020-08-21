@@ -6,13 +6,10 @@
 }
 
 body {
-    
     height: 95vh;
     background-color: hsl(257, 40%, 49%);
-    background-image: url("../images/bg-desktop.svg");
-    background-repeat: no-repeat;
-    margin:0 auto;
-    padding:0;
+    margin: 0 auto;
+    padding: 0;
     width: 1440px;
 }
 
@@ -30,7 +27,12 @@ p {
     color: white;
 }
 .main-container{
-    width:95%;
+    width:100%;
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+}
+.background {
+    width: 95%;
     display: grid;
     grid-template-columns: 20% 25% 1fr;
     grid-template-rows: repeat(4, 1fr);
